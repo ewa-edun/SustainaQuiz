@@ -1,0 +1,91 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Nature-inspired color palette */
+  --primary: #2E7D32;      /* Deep Forest Green */
+  --primary-light: #4CAF50; /* Vibrant Green */
+  --primary-dark: #1B5E20;  /* Dark Forest Green */
+  --secondary: #FFD700;     /* Gold */
+  --secondary-dark: #DAA520; /* Darker Gold */
+  --accent: #8B4513;        /* Saddle Brown */
+  --background: #F5F7E6;    /* Light Nature */
+  --text: #2C1810;          /* Dark Brown */
+  --correct: #4CAF50;       /* Success Green */
+  --incorrect: #D32F2F;     /* Error Red */
+  --white: #FFFFFF;         /* Pure White */
+
+  color-scheme: light;
+  color: var(--text);
+  background-color: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--background) 0%, var(--white) 100%);
+}
+
+/* Animated button styles */
+button {
+  border-radius: 8px;
+  border: 2px solid var(--primary);
+  padding: 0.8em 1.6em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  background-color: var(--primary-dark);
+  border-color: var(--secondary);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  background: linear-gradient(45deg, var(--secondary) 30%, var(--primary) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.2em;
+  }
+}
+
+h2 {
+  color: var(--primary-dark);
+  font-size: 2em;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.4em;
+  }
+}
