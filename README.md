@@ -33,7 +33,7 @@ SustainaQuiz is deployed using GitHub Pages. You can access it at:
 
 ## Social Links
 Feel free to connect with me:
-- [LinkedIn](https://linkedin.com/in/<your-profile>)
+- [LinkedIn](https://www.linkedin.com/in/oluwadamilola-edun/)
 - [GitHub](https://github.com/ewa-edun)
 - [YouTube](https://www.youtube.com/@ewa_edun)
 - [Discord](https://discord.gg/jSyr2dkP)
