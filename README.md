@@ -16,8 +16,8 @@
 - **Icons**: Font Awesome.
 
 ## Deployment
-SustainaQuiz is deployed using GitHub Pages. You can access it at:
-[https://<your-username>.github.io/sustainaquiz/](https://<your-username>.github.io/sustainaquiz/)
+SustainaQuiz is deployed using Vercel.
+Link: https://sustaina-quiz.vercel.app/
 
 ## How to Play
 1. Start the quiz by clicking the "Take the Quiz" button on the homepage.
